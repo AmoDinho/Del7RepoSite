@@ -37,7 +37,7 @@ h6 {
 p {
     margin: 0 0 20px;
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1em;
 }
 
 p.lead {
@@ -63,7 +63,7 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 0px solid rgba(255,255,255,.3);
 	
 }
 
@@ -88,7 +88,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(0,0,0,0);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -99,7 +99,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -310,17 +310,11 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/lavender.jpg) no-repeat top center;
-}
-.intro.img {
-	position: absolute;
-	background: url(/img/groupbanner.png) no-repeat top left;
-	top:30px;
-	left: 70px;
+	background: url(../img/bg1.jpg) no-repeat top center;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:10% 0 0 0;
 }
 
 .intro .slogan {
@@ -791,7 +785,7 @@ Parallax
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 	
 	.tp-banner-container {
