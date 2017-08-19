@@ -1,4 +1,5 @@
 
+@import url('default.css');
 a,.tp-caption a.btn:hover {
 	color: #cc00ff;
 }
@@ -8,6 +9,7 @@ a,.tp-caption a.btn:hover {
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
 	color: #cc00ff;
+     
 }
 
 .owl-theme .owl-controls .owl-page.active span,
